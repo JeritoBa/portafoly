@@ -1,0 +1,129 @@
+/* Proyects Section */
+
+main .proyects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+
+}
+
+main .proyects h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+main .proyects > p {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Slider */
+
+main .proyects .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cards */
+
+main .proyects .proyect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    margin: 0 2rem 4rem 2rem;
+    padding: 2rem;
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+
+main .proyects .proyect > img {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+main .proyects .proyect h3 {
+    font-size: 1.5rem;
+    color: var(--color-secundary);
+    margin-bottom: 1rem;
+}
+
+main .proyects .proyect p {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main .proyects .proyect > div {
+    display: flex;
+}
+
+main .proyects .proyect .badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 10px;
+    background-color: var(--color-secundary);
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+main .proyects .proyect > .badge {
+    margin-right: 0.5rem;
+}
+
+main .proyects .proyect .badge img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem
+}
+
+main .proyects .proyect a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+main .proyects .proyect a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+
+main .proyects .navigationButtons {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+main .proyects .navigationButtons button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 1.3rem;
+    margin: 0 3rem 0 3rem;
+    transition: opacity .2s ease-in-out;
+}
+
+main .proyects .navigationButtons button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* MediaQuerys */

@@ -1,0 +1,17 @@
+/* Footer */
+
+footer {
+    padding: 1rem;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+}
