@@ -2,7 +2,7 @@
 
 main .contactMe {
     max-width: 50rem;
-    padding: 2rem 2rem 7rem 2rem;
+    padding: 0 1rem 0 1rem;
     margin: 0 auto;
 }
 
@@ -32,4 +32,15 @@ main .contactMe img {
     width: 2rem;
     height: 2rem;
     margin-left: 0.6rem;
+}
+
+/* MediaQuerys */
+
+@media (min-width: 1200px) {
+    main .contactMe h2 {
+        font-size: 2.5rem;
+    }
+    main .contactMe p {
+        font-size: 1.5rem;
+    }
 }

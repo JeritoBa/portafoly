@@ -127,3 +127,13 @@ main .proyects .navigationButtons button:hover {
 }
 
 /* MediaQuerys */
+
+@media (min-width: 1200px) {
+    main .proyects h2 {
+        font-size: 2.5rem;
+    }
+
+    main .proyects > p {
+        font-size: 1.3rem;
+    }
+}
